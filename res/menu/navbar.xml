@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Motherboard"
+        android:title="Motherboard"
+        android:icon="@drawable/mb_icon"/>
+    <item
+        android:id="@+id/Storage"
+        android:title="Storage"
+        android:icon="@drawable/ssd_icon"/>
+    <item
+        android:id="@+id/Processor"
+        android:title="Processor"
+        android:icon="@drawable/cpu_icon"/>
+    <item
+        android:id="@+id/Memory"
+        android:title="Memory"
+        android:icon="@drawable/ram_icon"/>
+    <item
+        android:id="@+id/Graphic_Card"
+        android:title="Graphic Card"
+        android:icon="@drawable/vga_icon"/>
+    <item
+        android:id="@+id/Power_Supply"
+        android:title="Power Supply"
+        android:icon="@drawable/psu_icon"/>
+</menu>

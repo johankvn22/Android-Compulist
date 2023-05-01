@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-7dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:src="@drawable/header2">
+                </ImageView>
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="23dp"
+                android:layout_marginVertical="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="123dp"
+                    app:srcCompat="@drawable/mb">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Motherboard"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="10dp">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ssd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="23dp"
+                android:layout_marginVertical="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="123dp"
+                    app:srcCompat="@drawable/ssd">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Storage"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="10dp">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cpu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="23dp"
+                android:layout_marginVertical="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="123dp"
+                    app:srcCompat="@drawable/cpu">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Processor"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="10dp">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="23dp"
+                android:layout_marginVertical="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="123dp"
+                    app:srcCompat="@drawable/ram"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Memory"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="10dp">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/vga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="23dp"
+                android:layout_marginVertical="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="123dp"
+                    app:srcCompat="@drawable/vga">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Graphic Card"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="10dp">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/psu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="23dp"
+                android:layout_marginVertical="10dp"
+                app:cardCornerRadius="15dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="123dp"
+                    app:srcCompat="@drawable/psu">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Power Supply"
+                    android:textColor="#ffffff"
+                    android:textSize="35dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="10dp">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
